@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Star, ChevronDown, ChevronUp, Quote } from "lucide-react";
+import review1Img from "@/assets/review1.jpeg";
 
 const testimonials = [
-  { "name": "Shumsoon Nahar", "text": "I am very happy with my son’s school. The teachers are caring, supportive, and truly dedicated to each child’s growth. I have seen a great improvement in my son’s confidence, communication, and learning skills.... especially Amudha mam, she's is very sweet, very supportive and always smiling face.", "avatar": "👩" },
+  { "name": "Shumsoon Nahar", "text": "I am very happy with my son’s school. The teachers are caring, supportive, and truly dedicated to each child’s growth. I have seen a great improvement in my son’s confidence, communication, and learning skills.... especially Amudha mam, she's is very sweet, very supportive and always smiling face.", "avatar": <img src={review1Img} alt="Shumsoon Nahar" className="w-full h-full object-cover rounded-full" /> },
   { "name": "Parameswari K", "text": "Choosing Rainbow Play School for our child, Vairev, has truly been one of the best decisions we’ve made as parents. From the very first day, we felt a sense of warmth, care, and genuine love from the teachers and staff.", "avatar": "👩‍🦱" },
   { "name": "Tamilselvi Manimaran", "text": "The school is doing well and excellent infrastructure, extra curricular activities. The teachers are very kind and sweet to carring the child. Well planned worksheet for practice makes my child improve. I am very thankful to the school.", "avatar": "👩" },
   { "name": "Geethapriya Geethacharian", "text": "Among all the play schools, this is truly the best! The teachers are very kind and lovable. They take care of each child as their own. They always try to bring out the special abilities in every child.", "avatar": "👩" },
