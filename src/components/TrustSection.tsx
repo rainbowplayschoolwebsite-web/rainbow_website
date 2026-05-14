@@ -5,7 +5,7 @@ const trustItems = [
   { icon: "👩‍🏫", title: "Skilled Teachers", desc: "Trained and passionate teachers guiding every child with care." },
   { icon: "🛡️", title: "Safe Space", desc: "A safe, secure, and caring space for every child." },
   { icon: "✨", title: "Hygienic Environment", desc: "A safe, clean, and caring environment where happy learning begins." },
-  { icon: "🌬️", title: "Healthy Ventilation", desc: "Good ventilation improves comfort, concentration, and health by reducing heat, humidity, odors, and airborne germs." },
+  { icon: "🍃", title: "Healthy Ventilation", desc: "Good ventilation improves comfort, concentration, and health by reducing heat, humidity, odors, and airborne germs." },
 ];
 
 const TrustSection = () => {
