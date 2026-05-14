@@ -15,20 +15,6 @@ const FooterSection = () => {
             <p className="text-muted-foreground font-sub leading-relaxed text-sm">
               Where little minds grow big dreams. A joyful and safe space for your child to learn, play, and blossom every single day.
             </p>
-            <div className="flex gap-4 pt-2">
-              <motion.a whileHover={{ y: -3 }} href="#" className="w-10 h-10 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 flex items-center justify-center transition-colors hover:bg-blue-200 dark:hover:bg-blue-900/50">
-                <Facebook size={20} />
-              </motion.a>
-              <motion.a whileHover={{ y: -3 }} href="#" className="w-10 h-10 rounded-full bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-400 flex items-center justify-center transition-colors hover:bg-pink-200 dark:hover:bg-pink-900/50">
-                <Instagram size={20} />
-              </motion.a>
-              <motion.a whileHover={{ y: -3 }} href="#" className="w-10 h-10 rounded-full bg-sky-100 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400 flex items-center justify-center transition-colors hover:bg-sky-200 dark:hover:bg-sky-900/50">
-                <Twitter size={20} />
-              </motion.a>
-              <motion.a whileHover={{ y: -3 }} href="#" className="w-10 h-10 rounded-full bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 flex items-center justify-center transition-colors hover:bg-red-200 dark:hover:bg-red-900/50">
-                <Youtube size={20} />
-              </motion.a>
-            </div>
           </div>
 
           {/* Quick Links Column */}
