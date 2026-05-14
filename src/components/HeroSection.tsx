@@ -225,14 +225,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Soft bottom hills */}
-      <div className="absolute bottom-0 left-0 right-0 z-[5]">
-        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" className="w-full" style={{ height: "6vw", minHeight: "60px" }}>
-          <ellipse cx="300" cy="120" rx="450" ry="70" fill="white" />
-          <ellipse cx="900" cy="120" rx="500" ry="80" fill="white" />
-          <ellipse cx="1300" cy="120" rx="300" ry="50" fill="white" />
-        </svg>
-      </div>
+
     </section>
   );
 };
