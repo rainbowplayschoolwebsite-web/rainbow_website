@@ -38,12 +38,7 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
-          <a
-            href="#admission"
-            className="bg-coral text-coral-foreground font-sub font-bold px-5 py-2.5 rounded-full hover:shadow-lg hover:scale-105 transition-all"
-          >
-            Apply for Admission
-          </a>
+
         </div>
 
         {/* Mobile toggle */}
@@ -76,13 +71,7 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#admission"
-                onClick={() => setIsOpen(false)}
-                className="bg-coral text-coral-foreground font-sub font-bold px-6 py-3 rounded-full"
-              >
-                Apply for Admission
-              </a>
+
             </div>
           </motion.div>
         )}

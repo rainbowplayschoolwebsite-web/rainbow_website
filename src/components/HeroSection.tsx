@@ -165,25 +165,7 @@ const HeroSection = () => {
             We scientifically prepare<br /> your child’s brain and senses for learning.
           </motion.p>
 
-          <motion.div
-            className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-6 md:mt-12"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1.2, duration: 0.6 }}
-          >
-            <a 
-              href="#admission"
-              className="px-8 py-4 bg-primary text-white rounded-full font-bold text-lg shadow-[0_8px_0_hsl(141,52%,40%)] transform transition-transform active:translate-y-2 active:shadow-none hover:-translate-y-1 hover:shadow-[0_10px_0_hsl(141,52%,40%)] text-center"
-            >
-              Apply for Admission 🚀
-            </a>
-            <a 
-              href="#admission"
-              className="px-8 py-4 bg-white text-primary border-2 border-primary/20 rounded-full font-bold text-lg shadow-xl hover:bg-primary/5 transition-colors text-center"
-            >
-              Schedule a Visit
-            </a>
-          </motion.div>
+
         </div>
 
         {/* Right Column: Visuals & Floating Images */}

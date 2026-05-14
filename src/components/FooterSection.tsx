@@ -43,7 +43,7 @@ const FooterSection = () => {
                 <li><a href="#programs" className="hover:text-primary transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary/50"></span>Our Programs</a></li>
 
                 <li><a href="#gallery" className="hover:text-primary transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary/50"></span>Photo Gallery</a></li>
-                <li><a href="#admission" className="hover:text-primary transition-colors flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-primary/50"></span>Admissions Info</a></li>
+
               </ul>
             </div>
           </div>

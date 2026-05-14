@@ -7,10 +7,9 @@ import BrainSensesSection from "@/components/BrainSensesSection";
 
 import TrustSection from "@/components/TrustSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import AdmissionCTA from "@/components/AdmissionCTA";
+
 import FooterSection from "@/components/FooterSection";
 import FloatingElements from "@/components/FloatingElements";
-import FloatingCTA from "@/components/FloatingCTA";
 import BackgroundGlow from "@/components/BackgroundGlow";
 
 const Index = () => {
@@ -18,7 +17,6 @@ const Index = () => {
     <div className="relative overflow-hidden">
       <BackgroundGlow />
       <FloatingElements />
-      <FloatingCTA />
       <Navbar />
       <main className="relative z-10">
         <HeroSection />
@@ -29,7 +27,6 @@ const Index = () => {
 
         <TrustSection />
         <TestimonialsSection />
-        <AdmissionCTA />
       </main>
       <FooterSection />
     </div>
