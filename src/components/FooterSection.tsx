@@ -62,11 +62,15 @@ const FooterSection = () => {
                   </div>
                   <span className="mt-1">29, Sivaraman Street, Triplicane, Chennai - 600005</span>
                 </li>
-                <li className="flex items-center gap-3">
-                  <div className="p-2 bg-secondary/10 rounded-full shrink-0">
+                <li className="flex items-start gap-3">
+                  <div className="p-2 bg-secondary/10 rounded-full shrink-0 mt-0.5">
                     <Phone className="w-4 h-4 text-secondary" />
                   </div>
-                  <span>+91 95000 55350</span>
+                  <div className="flex flex-col">
+                    <span>+91 95000 55350</span>
+                    <span>+91 95001 16162</span>
+                    <span>+91 90032 90876</span>
+                  </div>
                 </li>
 
               </ul>
