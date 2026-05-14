@@ -162,7 +162,10 @@ const HeroSection = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 1.0, duration: 0.6 }}
           >
-            Where Every Sense Learns…<br /> Every Child Shines.
+            Where Every Sense Learns… Every Child Shines<br />
+            <span className="text-sm md:text-base font-medium normal-case mt-2 block text-muted-foreground">
+              Scientifically preparing your child’s brain and senses for learning.
+            </span>
           </motion.p>
 
 
