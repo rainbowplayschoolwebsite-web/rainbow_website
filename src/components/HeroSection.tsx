@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import heroKidsLearning from "@/assets/hero_learning_v4.png";
-import heroPlayground from "@/assets/hero_playground_v4.png";
+import heroKidsLearning from "@/assets/hero_learning_v5.png";
+import heroPlayground from "@/assets/hero_playground_v5.png";
 
 /* ── rainbow colors for each letter ── */
 const rainbowColors = [
@@ -171,12 +171,18 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.2, duration: 0.6 }}
           >
-            <button className="px-8 py-4 bg-primary text-white rounded-full font-bold text-lg shadow-[0_8px_0_hsl(141,52%,40%)] transform transition-transform active:translate-y-2 active:shadow-none hover:-translate-y-1 hover:shadow-[0_10px_0_hsl(141,52%,40%)]">
-              Enroll Now 🚀
-            </button>
-            <button className="px-8 py-4 bg-white text-primary border-2 border-primary/20 rounded-full font-bold text-lg shadow-xl hover:bg-primary/5 transition-colors">
-              Explore Programs
-            </button>
+            <a 
+              href="#admission"
+              className="px-8 py-4 bg-primary text-white rounded-full font-bold text-lg shadow-[0_8px_0_hsl(141,52%,40%)] transform transition-transform active:translate-y-2 active:shadow-none hover:-translate-y-1 hover:shadow-[0_10px_0_hsl(141,52%,40%)] text-center"
+            >
+              Apply for Admission 🚀
+            </a>
+            <a 
+              href="#admission"
+              className="px-8 py-4 bg-white text-primary border-2 border-primary/20 rounded-full font-bold text-lg shadow-xl hover:bg-primary/5 transition-colors text-center"
+            >
+              Schedule a Visit
+            </a>
           </motion.div>
         </div>
 

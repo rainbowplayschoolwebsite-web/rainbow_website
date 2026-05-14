@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { ScheduleVisitModal } from "./ScheduleVisitModal";
+import { AdmissionFormModal } from "./AdmissionFormModal";
 
 const AdmissionCTA = () => {
   const [confetti, setConfetti] = useState<number[]>([]);
+  const [isVisitModalOpen, setIsVisitModalOpen] = useState(false);
+  const [isAdmissionModalOpen, setIsAdmissionModalOpen] = useState(false);
 
   const popConfetti = () => {
     const ids = Array.from({ length: 20 }, (_, i) => Date.now() + i);
@@ -51,27 +55,29 @@ const AdmissionCTA = () => {
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-            <motion.a
-              href="tel:+919500055350"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={popConfetti}
-              className="bg-primary text-primary-foreground font-sub font-bold text-lg px-8 py-4 rounded-full shadow-lg text-center"
+            <button
+              onClick={() => setIsVisitModalOpen(true)}
+              className="bg-primary text-primary-foreground font-sub font-bold text-lg px-8 py-4 rounded-full shadow-lg text-center hover:scale-105 active:scale-95 transition-all"
             >
               📅 Schedule a Visit
-            </motion.a>
+            </button>
 
-            <motion.a
-              href="https://wa.me/919500055350?text=Hi%20Rainbow%20Play%20School!%20I%20am%20interested%20in%20applying%20for%20admission."
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={popConfetti}
-              className="bg-coral text-coral-foreground font-sub font-bold text-lg px-8 py-4 rounded-full shadow-lg text-center"
+            <ScheduleVisitModal 
+              isOpen={isVisitModalOpen} 
+              onOpenChange={setIsVisitModalOpen} 
+            />
+
+            <button
+              onClick={() => setIsAdmissionModalOpen(true)}
+              className="bg-coral text-coral-foreground font-sub font-bold text-lg px-8 py-4 rounded-full shadow-lg text-center hover:scale-105 active:scale-95 transition-all"
             >
               🎓 Apply for Admission
-            </motion.a>
+            </button>
+
+            <AdmissionFormModal 
+              isOpen={isAdmissionModalOpen} 
+              onOpenChange={setIsAdmissionModalOpen} 
+            />
           </div>
         </motion.div>
       </div>

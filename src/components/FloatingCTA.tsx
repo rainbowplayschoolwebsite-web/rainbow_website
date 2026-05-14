@@ -28,7 +28,7 @@ const FloatingCTA = () => {
               exit="exit"
               className="absolute right-full mr-4 px-3 py-1 bg-[#1B3A6B] text-white font-bold text-sm rounded-lg shadow-lg whitespace-nowrap pointer-events-none"
             >
-              Admissions Open
+              Apply for Admission
             </motion.div>
           )}
         </AnimatePresence>
@@ -38,7 +38,7 @@ const FloatingCTA = () => {
           onMouseLeave={() => handleInteraction(null)}
           onTouchStart={() => handleInteraction("admissions")}
           className="w-14 h-14 rounded-full bg-coral text-coral-foreground flex items-center justify-center shadow-2xl hover:scale-110 active:scale-90 transition-transform relative"
-          aria-label="Admissions Open"
+          aria-label="Apply for Admission"
         >
           <GraduationCap className="w-7 h-7" />
         </motion.a>
@@ -55,7 +55,7 @@ const FloatingCTA = () => {
               exit="exit"
               className="absolute right-full mr-4 px-3 py-1 bg-[#1B3A6B] text-white font-bold text-sm rounded-lg shadow-lg whitespace-nowrap pointer-events-none"
             >
-              Book a School Visit
+              Schedule a Visit
             </motion.div>
           )}
         </AnimatePresence>
@@ -65,7 +65,7 @@ const FloatingCTA = () => {
           onMouseLeave={() => handleInteraction(null)}
           onTouchStart={() => handleInteraction("visit")}
           className="w-14 h-14 rounded-full bg-primary text-primary-foreground flex items-center justify-center shadow-2xl hover:scale-110 active:scale-90 transition-transform relative"
-          aria-label="Book a School Visit"
+          aria-label="Schedule a Visit"
         >
           <Calendar className="w-6 h-6" />
         </motion.a>

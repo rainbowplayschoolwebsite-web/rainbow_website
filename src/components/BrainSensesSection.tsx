@@ -165,7 +165,7 @@ const BrainSensesSection = () => {
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground mb-3">
             Brain & <span className="text-primary">Senses</span> 🧠
           </h2>
-          <p className="font-sub text-muted-foreground text-lg">Holistic development for early learners</p>
+          <p className="font-sub text-muted-foreground text-lg">Where Every Sense Learns… Every Child Shines</p>
         </motion.div>
 
         {/* ======= DESKTOP LAYOUT ======= */}

@@ -124,7 +124,7 @@ const AboutSection = () => {
               </ul>
               <div className="mt-8 pt-6 border-t border-slate-100">
                 <p className="font-sub text-slate-600">
-                  With over 17 years of experience working with children across a wide range of learning needs, along with 15 years of successfully leading a play school, she offers a well-rounded and practical approach to early education.
+                  With over 17 years of experience working with children across a wide range of learning needs, she offers a well-rounded and practical approach to early education.
                 </p>
               </div>
             </div>

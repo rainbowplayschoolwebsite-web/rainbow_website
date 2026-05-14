@@ -42,7 +42,7 @@ const Navbar = () => {
             href="#admission"
             className="bg-coral text-coral-foreground font-sub font-bold px-5 py-2.5 rounded-full hover:shadow-lg hover:scale-105 transition-all"
           >
-            Admissions Open
+            Apply for Admission
           </a>
         </div>
 
@@ -81,7 +81,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
                 className="bg-coral text-coral-foreground font-sub font-bold px-6 py-3 rounded-full"
               >
-                Admissions Open
+                Apply for Admission
               </a>
             </div>
           </motion.div>
