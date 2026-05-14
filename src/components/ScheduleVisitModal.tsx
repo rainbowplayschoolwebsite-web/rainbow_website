@@ -68,7 +68,7 @@ export function ScheduleVisitModal({ isOpen, onOpenChange }: ScheduleVisitModalP
       `*Phone:* ${values.phone}%0A` +
       `*Preferred Date:* ${format(values.visitDate, "PPP")}`;
     
-    const whatsappUrl = `https://wa.me/919500055350?text=${message}`;
+    const whatsappUrl = `https://wa.me/919500116162?text=${message}`;
     
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, "_blank");

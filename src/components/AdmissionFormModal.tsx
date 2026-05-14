@@ -79,7 +79,7 @@ export function AdmissionFormModal({ isOpen, onOpenChange }: AdmissionFormModalP
       `*Program:* ${values.program}%0A` +
       `*Address:* ${values.address}`;
     
-    const whatsappUrl = `https://wa.me/919500055350?text=${message}`;
+    const whatsappUrl = `https://wa.me/919500116162?text=${message}`;
     window.open(whatsappUrl, "_blank");
     
     setIsSubmitting(false);
