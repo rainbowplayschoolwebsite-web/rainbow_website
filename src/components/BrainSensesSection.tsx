@@ -192,7 +192,7 @@ const BrainSensesSection = () => {
             <h3
               className="font-heading text-[17px] lg:text-[19px] font-extrabold leading-[1.35] uppercase text-[#144751] tracking-wide"
             >
-              &ldquo;WE SCIENTIFICALLY PREPARE YOUR CHILD'S BRAIN AND SENSES FOR LEARNING&rdquo;
+              &ldquo;WHERE EVERY SENSE LEARNS&hellip; EVERY CHILD SHINES&rdquo;
             </h3>
           </motion.div>
 
@@ -266,7 +266,7 @@ const BrainSensesSection = () => {
             <h3
               className="font-heading text-[11px] font-extrabold leading-[1.3] uppercase text-[#144751] tracking-wide"
             >
-              &ldquo;WE SCIENTIFICALLY PREPARE YOUR CHILD'S BRAIN AND SENSES FOR LEARNING&rdquo;
+              &ldquo;WHERE EVERY SENSE LEARNS&hellip; EVERY CHILD SHINES&rdquo;
             </h3>
           </motion.div>
 

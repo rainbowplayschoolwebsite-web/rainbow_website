@@ -162,7 +162,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 1.0, duration: 0.6 }}
           >
-            We scientifically prepare<br /> your child’s brain and senses for learning.
+            Where Every Sense Learns…<br /> Every Child Shines.
           </motion.p>
 
 
