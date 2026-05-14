@@ -189,7 +189,7 @@ const HeroSection = () => {
 
           {/* Secondary Floating Image */}
           <motion.div
-            className="absolute z-30 w-[75%] md:w-[65%]"
+            className="absolute z-30 w-[82%] md:w-[72%]"
             initial={{ opacity: 0, x: -50, rotate: 10 }}
             animate={{ opacity: 1, x: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.8 }}
