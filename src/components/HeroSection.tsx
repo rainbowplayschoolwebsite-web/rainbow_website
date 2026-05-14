@@ -162,10 +162,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 1.0, duration: 0.6 }}
           >
-            Where Every Sense Learns… Every Child Shines<br />
-            <span className="text-sm md:text-base font-medium normal-case mt-2 block text-muted-foreground">
-              Scientifically preparing your child’s brain and senses for learning.
-            </span>
+            We scientifically prepare<br /> your child’s brain and senses for learning.
           </motion.p>
 
 
@@ -192,7 +189,7 @@ const HeroSection = () => {
 
           {/* Secondary Floating Image */}
           <motion.div
-            className="absolute z-30 w-[75%] md:w-[65%]"
+            className="absolute z-30 w-[60%] md:w-[55%]"
             initial={{ opacity: 0, x: -50, rotate: 10 }}
             animate={{ opacity: 1, x: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.8 }}
@@ -228,7 +225,14 @@ const HeroSection = () => {
         </div>
       </div>
 
-
+      {/* Soft bottom hills */}
+      <div className="absolute bottom-0 left-0 right-0 z-[5]">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" className="w-full" style={{ height: "6vw", minHeight: "60px" }}>
+          <ellipse cx="300" cy="120" rx="450" ry="70" fill="white" />
+          <ellipse cx="900" cy="120" rx="500" ry="80" fill="white" />
+          <ellipse cx="1300" cy="120" rx="300" ry="50" fill="white" />
+        </svg>
+      </div>
     </section>
   );
 };
