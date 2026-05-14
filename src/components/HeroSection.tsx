@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
-import heroKidsLearning from "@/assets/hero_learning_v5.png";
-import heroPlayground from "@/assets/hero_playground_v5.png";
+import heroKidsLearning from "@/assets/hero_learning_v6.jfif";
+import heroPlayground from "@/assets/hero_playground_v6.jfif";
 
 /* ── rainbow colors for each letter ── */
 const rainbowColors = [
