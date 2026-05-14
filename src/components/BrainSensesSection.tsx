@@ -184,12 +184,12 @@ const BrainSensesSection = () => {
               left: "440px",
               x: "-50%",
               y: "-50%",
-              width: "280px",
+              width: "360px",
               textAlign: "center",
             }}
           >
             <h3
-              className="font-heading text-[20px] lg:text-[24px] font-extrabold leading-[1.35] uppercase text-[#144751] tracking-wide"
+              className="font-heading text-[20px] lg:text-[24px] font-extrabold leading-[1.35] uppercase text-[#144751] tracking-wide whitespace-nowrap"
             >
               &ldquo;WHERE<br />
               EVERY SENSE LEARNS&hellip;<br />
@@ -260,12 +260,12 @@ const BrainSensesSection = () => {
               left: "50%",
               x: "-50%",
               y: "-50%",
-              width: "160px",
+              width: "220px",
               textAlign: "center",
             }}
           >
             <h3
-              className="font-heading text-[13px] font-extrabold leading-[1.3] uppercase text-[#144751] tracking-wide"
+              className="font-heading text-[13px] font-extrabold leading-[1.3] uppercase text-[#144751] tracking-wide whitespace-nowrap"
             >
               &ldquo;WHERE<br />
               EVERY SENSE LEARNS&hellip;<br />
