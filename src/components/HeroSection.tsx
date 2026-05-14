@@ -198,7 +198,7 @@ const HeroSection = () => {
           >
             <div className="rounded-xl overflow-hidden">
               <img
-                src={heroKidsLearning}
+                src="/What Makes a Preschool the Best in India_ 5 Standards Every Mumbai Parent Should Know.jfif"
                 alt="Preschool children learning and playing"
                 className="w-full h-auto rounded-lg object-cover aspect-video"
               />
