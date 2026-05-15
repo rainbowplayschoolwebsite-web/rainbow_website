@@ -172,11 +172,11 @@ const HeroSection = () => {
         <div className="w-full lg:w-1/2 relative h-[450px] md:h-[600px] flex items-center justify-center">
           {/* Main Image */}
           <motion.div
-            className="absolute z-20 w-[80%] md:w-[75%]"
+            className="absolute z-20 w-[65%] md:w-[60%]"
             initial={{ opacity: 0, y: 50, rotate: -5 }}
             animate={{ opacity: 1, y: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.5 }}
-            style={{ top: '10%', right: '0%' }}
+            style={{ top: '0%', right: '0%' }}
           >
             <div className="rounded-2xl overflow-hidden transition-transform duration-500">
               <img
@@ -189,12 +189,12 @@ const HeroSection = () => {
 
           {/* Secondary Floating Image */}
           <motion.div
-            className="absolute z-30 w-[82%] md:w-[72%]"
+            className="absolute z-30 w-[60%] md:w-[55%]"
             initial={{ opacity: 0, x: -50, rotate: 10 }}
             animate={{ opacity: 1, x: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.8 }}
             whileHover={{ scale: 1.05 }}
-            style={{ bottom: '5%', left: '0%' }}
+            style={{ bottom: '0%', left: '0%' }}
           >
             <div className="rounded-xl overflow-hidden">
               <img
