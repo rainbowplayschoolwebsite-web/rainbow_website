@@ -172,7 +172,7 @@ const HeroSection = () => {
         <div className="w-full lg:w-1/2 relative min-h-[500px] md:min-h-[750px] flex flex-col items-center justify-center gap-8 py-12 md:py-20">
           {/* Main Image */}
           <motion.div
-            className="relative z-20 w-[90%] md:w-[85%] -rotate-2"
+            className="relative z-20 w-[80%] md:w-[70%] -rotate-2"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.5 }}
