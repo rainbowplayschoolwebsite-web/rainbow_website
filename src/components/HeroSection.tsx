@@ -194,7 +194,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, x: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.8 }}
             whileHover={{ scale: 1.05 }}
-            style={{ bottom: '15%', left: '0%' }}
+            style={{ bottom: '5%', left: '0%' }}
           >
             <div className="rounded-xl overflow-hidden">
               <img
