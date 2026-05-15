@@ -169,36 +169,38 @@ const HeroSection = () => {
         </div>
 
         {/* Right Column: Visuals & Floating Images */}
-        <div className="w-full lg:w-1/2 relative min-h-[500px] md:min-h-[750px] flex flex-col items-center justify-center gap-8 py-12 md:py-20">
+        <div className="w-full lg:w-1/2 relative h-[450px] md:h-[600px] flex items-center justify-center">
           {/* Main Image */}
           <motion.div
-            className="relative z-20 w-[80%] md:w-[70%] -rotate-2"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
+            className="absolute z-20 w-[70%] md:w-[65%]"
+            initial={{ opacity: 0, y: 50, rotate: -5 }}
+            animate={{ opacity: 1, y: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.5 }}
+            style={{ top: '10%', right: '0%' }}
           >
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white/50">
+            <div className="rounded-2xl overflow-hidden transition-transform duration-500">
               <img
                 src={heroPlayground}
                 alt="Happy children playing"
-                className="w-full h-auto object-cover aspect-[4/3]"
+                className="w-full h-auto rounded-xl object-cover aspect-[4/3]"
               />
             </div>
           </motion.div>
-          
-          {/* Secondary Image - No overlap */}
+
+          {/* Secondary Floating Image */}
           <motion.div
-            className="relative z-30 w-[90%] md:w-[85%] rotate-2"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
+            className="absolute z-30 w-[82%] md:w-[72%]"
+            initial={{ opacity: 0, x: -50, rotate: 10 }}
+            animate={{ opacity: 1, x: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.8 }}
-            whileHover={{ scale: 1.02 }}
+            whileHover={{ scale: 1.05 }}
+            style={{ bottom: '5%', left: '0%' }}
           >
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white/50">
+            <div className="rounded-xl overflow-hidden">
               <img
                 src="/What Makes a Preschool the Best in India_ 5 Standards Every Mumbai Parent Should Know.jfif"
                 alt="Preschool children learning and playing"
-                className="w-full h-auto object-cover aspect-video"
+                className="w-full h-auto rounded-lg object-cover aspect-video"
               />
             </div>
           </motion.div>
