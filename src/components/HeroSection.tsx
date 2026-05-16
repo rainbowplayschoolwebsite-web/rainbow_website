@@ -167,7 +167,7 @@ const HeroSection = () => {
           </motion.div>
 
           <motion.p
-            className="font-heading text-xl md:text-2xl font-bold mb-8 mt-10 uppercase tracking-wider text-[#1B3A6B] leading-relaxed max-w-lg"
+            className="font-heading text-xl md:text-2xl font-bold mb-8 mt-20 uppercase tracking-wider text-[#1B3A6B] leading-relaxed max-w-lg"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 1.0, duration: 0.6 }}
