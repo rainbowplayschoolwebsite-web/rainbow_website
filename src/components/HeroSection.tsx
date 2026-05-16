@@ -82,7 +82,7 @@ const HeroSection = () => {
         <img 
           src="/¿Qué es la educación socioemocional_.jfif" 
           alt="" 
-          className="w-full h-full object-cover opacity-15" 
+          className="w-full h-full object-cover opacity-25" 
         />
         <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-white/40" />
       </div>
