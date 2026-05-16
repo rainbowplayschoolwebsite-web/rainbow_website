@@ -77,6 +77,16 @@ const HeroSection = () => {
       className="relative min-h-[90vh] md:min-h-screen flex items-center justify-center overflow-hidden cursor-pointer bg-white/40 backdrop-blur-md border-b border-white/20"
       onClick={handleClick}
     >
+      {/* 🖼 Background Image with low opacity */}
+      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+        <img 
+          src={heroPlayground} 
+          alt="" 
+          className="w-full h-full object-cover opacity-10" 
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-white/40" />
+      </div>
+
       {/* Background Decor handled by global BackgroundGlow */}
 
       {/* ⭐ Twinkling stars */}
@@ -172,9 +182,9 @@ const HeroSection = () => {
         <div className="w-full lg:w-1/2 relative h-[450px] md:h-[600px] flex items-center justify-center">
           {/* Main Image */}
           <motion.div
-            className="absolute z-10 w-[70%] md:w-[65%]"
+            className="absolute z-20 w-[70%] md:w-[65%]"
             initial={{ opacity: 0, y: 50, rotate: -5 }}
-            animate={{ opacity: 0.4, y: 0, rotate: 0 }}
+            animate={{ opacity: 0.7, y: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.5 }}
             style={{ top: '10%', right: '0%' }}
           >
