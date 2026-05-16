@@ -146,7 +146,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 pt-16 md:pt-10 pb-16 flex flex-col lg:flex-row items-center gap-12 lg:gap-8 min-h-screen">
 
         {/* Left Column: Typography & CTAs */}
-        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left mt-4 md:-mt-12 lg:-mt-20">
+        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left mt-8 md:-mt-4 lg:-mt-8">
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -157,7 +157,7 @@ const HeroSection = () => {
             <img
               src="/logo.png"
               alt="Rainbow Play School Logo"
-              className="w-36 h-36 md:w-52 md:h-52 object-contain drop-shadow-2xl shrink-0 relative top-8 md:top-12"
+              className="w-36 h-36 md:w-52 md:h-52 object-contain drop-shadow-2xl shrink-0 relative top-2 md:top-4"
             />
             <img
               src="/rainbow logo.png"
