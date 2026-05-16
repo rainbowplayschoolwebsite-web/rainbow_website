@@ -157,7 +157,7 @@ const HeroSection = () => {
             <img
               src="/logo.png"
               alt="Rainbow Play School Logo"
-              className="w-36 h-36 md:w-52 md:h-52 object-contain drop-shadow-2xl shrink-0 relative top-2 md:top-4"
+              className="w-36 h-36 md:w-52 md:h-52 object-contain drop-shadow-2xl shrink-0 relative top-8 md:top-12"
             />
             <img
               src="/rainbow logo.png"
