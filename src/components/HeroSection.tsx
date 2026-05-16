@@ -152,7 +152,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
-            className="flex flex-col md:flex-row items-center gap-0 mb-12"
+            className="flex flex-col md:flex-row items-center gap-0 mb-16"
           >
             <img
               src="/logo.png"
@@ -167,7 +167,7 @@ const HeroSection = () => {
           </motion.div>
 
           <motion.p
-            className="font-heading text-xl md:text-2xl font-bold mb-8 uppercase tracking-wider text-[#1B3A6B] leading-relaxed max-w-lg"
+            className="font-heading text-xl md:text-2xl font-bold mb-8 mt-10 uppercase tracking-wider text-[#1B3A6B] leading-relaxed max-w-lg"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 1.0, duration: 0.6 }}
