@@ -80,9 +80,9 @@ const HeroSection = () => {
       {/* 🖼 Background Image with low opacity */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
         <img 
-          src={heroPlayground} 
+          src="/¿Qué es la educación socioemocional_.jfif" 
           alt="" 
-          className="w-full h-full object-cover opacity-20" 
+          className="w-full h-full object-cover opacity-15" 
         />
         <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-white/40" />
       </div>
