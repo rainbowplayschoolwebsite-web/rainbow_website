@@ -152,7 +152,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
-            className="flex flex-col md:flex-row items-center gap-0 mb-8"
+            className="flex flex-col md:flex-row items-center gap-0 mb-12"
           >
             <img
               src="/logo.png"
