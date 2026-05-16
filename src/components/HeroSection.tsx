@@ -146,7 +146,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 pt-16 md:pt-10 pb-16 flex flex-col lg:flex-row items-center gap-12 lg:gap-8 min-h-screen">
 
         {/* Left Column: Typography & CTAs */}
-        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left mt-12 md:mt-2 lg:mt-4">
+        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left mt-20 md:mt-10 lg:mt-12">
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -167,7 +167,7 @@ const HeroSection = () => {
           </motion.div>
 
           <motion.p
-            className="font-heading text-xl md:text-2xl font-bold mb-8 mt-32 uppercase tracking-wider text-[#1B3A6B] leading-relaxed max-w-lg"
+            className="font-heading text-xl md:text-2xl font-bold mb-8 mt-24 uppercase tracking-wider text-[#1B3A6B] leading-relaxed max-w-lg"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 1.0, duration: 0.6 }}
