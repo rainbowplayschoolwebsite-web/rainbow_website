@@ -184,7 +184,7 @@ const HeroSection = () => {
           <motion.div
             className="absolute z-20 w-[70%] md:w-[65%]"
             initial={{ opacity: 0, y: 50, rotate: -5 }}
-            animate={{ opacity: 0.7, y: 0, rotate: 0 }}
+            animate={{ opacity: 0.85, y: 0, rotate: 0 }}
             transition={{ duration: 1, type: "spring", bounce: 0.4, delay: 0.5 }}
             style={{ top: '10%', right: '0%' }}
           >
